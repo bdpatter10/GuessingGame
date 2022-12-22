@@ -1,0 +1,54 @@
+ons-button {
+    /* display: block; */
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffcc00;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    /* box-shadow: 0 5px #999999; */
+  }
+  
+  ons-button:active {
+    box-shadow: 0 2px #666666;
+    transform: translateY(5px);
+  }
+
+  .button-left {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 200px;
+  }
+
+  .button-right {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 350px;
+  }
+
+  .object {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 25px;
+  }
+
+  .left {
+    position: fixed;
+    top: 235px;
+    left: 225px;
+  }
+
+  .right {
+    position: fixed;
+    top: 235px;
+    left: 375px;
+  }
+

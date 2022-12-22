@@ -2,6 +2,7 @@
 <html>
 <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">    
 <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+<link rel="stylesheet" href="style.css">
 <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
 <body>
     
@@ -9,8 +10,12 @@
 <h1>The Guessing Game</h1>
 <h2>Pick Left or Right</h2>
 <p id="demo"></p>
-<ons-button type="button" modifier="cta" id="buttonLeft">Left</ons-button>
-<ons-button type="button" modifier="cta" id="buttonRight">Right</ons-button>
+<ons-button type="button" modifier="cta" id="buttonLeft" class="button-left">Left</ons-button>
+<ons-button type="button" modifier="cta" id="buttonRight" class="button-right">Right</ons-button>
+<div id="object-container-left" class="left"></div>
+<div id="object-container-right" class="right"></div>
+
+<p id="output"></p>
 
 <script src="webApp.js"></script>
 
